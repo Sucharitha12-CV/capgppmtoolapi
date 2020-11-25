@@ -55,8 +55,8 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 			<version>2.4.0</version>
-			<!-- Spring Boot Validation API - Start -->
 		</dependency>
+		<!-- Spring Boot Validation API - Start -->
 	</dependencies>
 
 	<build>
