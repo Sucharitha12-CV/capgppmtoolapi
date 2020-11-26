@@ -28,9 +28,14 @@ public class ProjectService {
 		Project project = projectRepository.findByProjectIdentifier(projectIdentifier.toUpperCase());
 		if (project == null) {
 			throw new ProjectIDException("ProjectIdentifier " + projectIdentifier + " not available");
+			
 		}
 		return project;
 
+	}
+	
+	public Iterable<Project> findAllProjects(){
+		return projectRepository.findAll();
 	}
 
 }
